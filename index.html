@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css Tasks/task10.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.min.css">
+  <link rel="stylesheet" href="./css Tasks/dark.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <title>Mealify</title>
+</head>
+<body>
+                                        <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg sticky-top shadow p-3 nav mb-5 w-100">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5 logo" href="#">Mealify <span>.</span></a>
+      <button
+        class="navbar-toggler tagCollapser"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul
+          class="navbar-nav ms-auto me-5 my-2 my-lg-0 navbar-nav-scroll"
+          style="--bs-scroll-height: 100px"
+        >
+          <li class="nav-item">
+            <a class="nav-link active items" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link items" href="#">Chefs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link items" href="#"> Gallery </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link items" href="#"> Contact </a>
+          </li>
+        </ul>
+      </div>
+      <div class="mode-group me-5">
+        <label for="mode" class="dark">
+          <i class="fa-solid fa-moon"></i>
+        </label>
+        <label for="mode" class="light">
+          <i class="fa-regular fa-sun"></i>
+        </label>
+        <input type="checkbox" id="mode" class="mode" hidden aria-hidden />
+      </div>
+    </div>
+  </nav>
+                                        <!-- header -->
+
+  <header class="header">
+    <section class="welcome">
+      <div class="welcomeText">
+        <h2>
+          Enjoy Your Healthy <br />
+          Delicious Food
+        </h2>
+        <p>
+          Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+          eveniet. Eum quas beatae cumque eum quaerat.
+        </p>
+        <div class="btns">
+          <a href="#contact" class="btnBook">Book a Table</a>
+          <a href="https://youtube.com" target="_blank"         class="btnVideo">
+            <div class="icon">
+                  <i class="fa-solid fa-play"></i>
+            </div>
+            Watch a Video
+          </a>
+        </div>
+      </div>
+      <div class="welcomeImg">
+        <img src="./imgs/task10imgs/hero-img.png" alt="">
+      </div>
+    </section>
+  </header>
+                            <!-- chefs -->
+  <section class="chefs">
+    <div class="chefsCont">
+      <div class="chefsText">
+        <h2>CHEFS</h2>
+        <p>Our <span> Proffesional </span> Chefs</p>
+      </div>
+      <div class="chefsPics">
+        <div class="imgCard">
+        <picture>
+          <img src="./imgs/task10imgs/chefs/chefs-1.jpg" alt="Walter White photo"/>
+        </picture>
+        <div class="textCard">
+          <h3>Walter White</h3>
+          <span>Master Chef </span>
+          <p>
+            Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+            tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+            corporis et voluptate.
+          </p>
+        </div>
+        <ul class="iconCard">
+          <li>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="imgCard">
+        <picture>
+        <img src="./imgs/task10imgs/chefs/chefs-2.jpg" alt="Sarah Jhonson photo"/>
+        </picture>
+      <div class="textCard">
+        <h3>Sarah Jhonson</h3>
+        <span>Patissier </span>
+        <p>
+          Quo esse repellendus quia id. Est eum et accusantium pariatur
+          fugit nihil minima suscipit corporis. Voluptate sed quas
+          reiciendis animi neque sapiente.
+        </p>
+      </div>
+        <ul class="iconCard">
+          <li>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="imgCard">
+        <picture>
+          <img src="./imgs/task10imgs/chefs/chefs-3.jpg" alt="William Anderson photo"/>
+        </picture>
+        <div class="textCard">
+          <h3>William Anderson</h3>
+          <span>Cook </span>
+          <p>
+            Vero omnis enim consequatur. Voluptas consectetur unde qui
+            molestiae deserunt. Voluptates enim aut architecto porro
+            aspernatur molestiae modi.
+          </p>
+        </div>
+        <ul class="iconCard">
+          <li>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </section>  
+                          <!-- gallery -->
+  <section class="gallery">
+    <div class="galText">
+      <h2>Gallery</h2>
+      <p>Check <span>Our Gallery</span></p>
+    </div>
+    <div class="galContainer">
+        <div class="firstImg"><img src="./imgs/task10imgs/meal/meal-1.jpg">
+          <div class="overlay"></div></div>
+        <div class="secondImg"><img src="./imgs/task10imgs/meal/meal-2.jpg">
+          <div class="overlay"></div></div>
+        <div class="thirdImg"><img src="./imgs/task10imgs/meal/meal-3.jpg">
+          <div class="overlay"></div></div>
+        <div class="fourthImg"><img src="./imgs/task10imgs/meal/meal-4.jpg">
+          <div class="overlay"></div></div>
+        <div class="fifthImg"><img src="./imgs/task10imgs/meal/meal-5.jpg" >
+          <div class="overlay"></div></div>
+        <div class="sixthImg"><img src="./imgs/task10imgs/meal/meal-6.jpg">
+          <div class="overlay"></div></div>
+        <div class="seventhImg"><img src="./imgs/task10imgs/meal/meal-7.jpg">
+          <div class="overlay"></div></div>
+    </div>
+  </section>
+                            <!-- contact -->
+  <section class="contact">
+    <div class="contactText">
+      <h2>Contact</h2>
+      <p>Need Help ? <span>Contact Us</span></p>
+    </div>
+    <div class="map">
+      <img src="./imgs/task10imgs/map/Screenshot (25).png" alt="">
+    </div>
+    <div class="text-center textCon">
+      <div class="row">
+        <div class="col-6 col-sm-4 conCard">
+          <div class="conIcon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="conText">
+            <h3 class="h3">Our Address</h3>
+            <p>123 Street, New York, USA</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 conCard">
+          <div class="conIcon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="conText">
+            <h3 class="h3">Email Us</h3>
+            <p>9hS9Z@example.com</p>
+          </div>
+        </div>
+    
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+    
+        <div class="col-6 col-sm-4 conCard">
+          <div class="conIcon"><i class="fa-solid fa-phone"></i></div>
+          <div class="conText">
+            <h3 class="h3">Call Us</h3>
+            <p>+012 345 67890</p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 conCard">
+          <div class="conIcon"><i class="fa-solid fa-clock"></i></div>
+          <div class="conText">
+            <h3 class="h3">Opening Hours</h3>
+            <p>Mon-Sat, 8AM-12PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form class="form">
+      <div class="row conBox">
+        <div class="col mb-3">
+          <input type="text" class="form-control" placeholder="Your name">
+        </div>
+        <div class="col mb-3">
+          <input type="text" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="mb-3"><input class="form-control" type="text" placeholder="Subject">
+        </div>
+        <div class="mb-5"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea></div>
+      </div>
+      <div class="btn-submit">
+        <button type="button" class="btn btn-lg rounded-pill">Large button
+        </button>
+      </div>
+
+    </form>
+  </section>
+                        <!-- footer -->
+  <footer class="footer">
+    <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-box">
+            <div class="footLogo">
+              <img src="./imgs/task10imgs/favicon.png" alt="">
+              <h3>Mealify.</h3>
+            </div>
+              <p>Mealify is a restaurant landing page that offers a delicious dining experience to its customers.</p>
+              <h3>Social Media</h3>
+              <hr>
+              <div class="card-area">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-6 col-sm-3">
+        <div class="single-box">
+          <h2>Subscribe our Newsletter</h2>
+          <p>Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay up-to-date with all things Mealify!</p>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Enter your Email " aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+            <div class="input-group ms-3">
+              <span class="input-group-text" id="basic-addon2"><i class="fa-regular fa-envelope"></i>Subscribe</span>
+            </div>
+          </div>
+        </div>  
+        <div class="row"> 
+        <div class="col-lg-4 col-sm-6">
+          <div class="single-box">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">About US</a></li>
+              <li><a href="#">Testimonials</a></li>
+            </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="single-box">
+              <h2 id="hidden">ssssss</h2>
+              <ul>
+                <li><a href="#">Promo</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Our Partners</a></li>
+              </ul>
+              </div>
+            </div>
+            </div>                
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box lastCon">
+          <h2>Get in Touch</h2>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <p>123 Street, New York, USA</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <p>u9KpZ@example.com</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <p>+123 456 7890</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+                  
+
+  <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
